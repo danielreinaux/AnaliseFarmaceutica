@@ -18,6 +18,7 @@ Nossa análise se baseia em uma amostra cuidadosamente selecionada de dados obti
 
 ## 💾 Tratamento de Dados
 Foi-se criada uma função de Metadados para entender melhor o funcionamento das categorias do Dataset, e dessa forma, executar de forma efetiva o seu tratamento. A função gerou essa tabela:
+
 ![image](https://github.com/danielreinaux/DataAnalytics/assets/91274263/495dba99-423c-4a5c-a2ec-165b1ab4b64c)
 Pela tabela dos metadados, pôde-se ter certas ações:
 * Importante notar que existem algumas colunas com uma quantidade elevada de valores nulos. No caso de `CID10` em que o número é de 99.90% de números nulos, a retirada dessa coluna é o melhor a se fazer
