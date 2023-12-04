@@ -21,7 +21,7 @@ Foi-se criada uma função de Metadados para entender melhor o funcionamento das
 
 ![image](https://github.com/danielreinaux/DataAnalytics/assets/91274263/495dba99-423c-4a5c-a2ec-165b1ab4b64c)
 
-Pela tabela dos metadados, pôde-se ter certas ações:
+Pela tabela dos metadados, pôde-se ter certas conclusões:
 * Importante notar que existem algumas colunas com uma quantidade elevada de valores nulos. No caso de `CID10` em que o número é de 99.90% de números nulos, a retirada dessa coluna é o melhor a se fazer
 *  Para os casos de `SEXO` e `UNIDADE_IDADE` em que a cardinalidade é igual a 2, vamos preencher esses valores nulos com a moda dessas variáveis.
 * Para o caso de `IDADE`, o preenchimento será pela média dessa variável. Talvez o ideal fosse colocar a mediana, já que temos muitos outliers
@@ -31,7 +31,7 @@ Pela tabela dos metadados, pôde-se ter certas ações:
 
 ## 🗺️ Analise exploratória dos dados
 
-#### Medicamentos mais vendidos
+#### 💊 Medicamentos mais vendidos
 Para essa análise, foi necessária a utilização da categoria `PRINCIPIO_ATIVO`
 ![image](https://github.com/danielreinaux/DataAnalytics/assets/91274263/6d440fd8-919d-40ca-8a3f-725ef90764cf)
 É possível, com esse gráfico, entender alguns pontos importantes:
@@ -49,13 +49,13 @@ Diversificação de Produto
 Potencial de Mercado
   * Identificação de oportunidades de crescimentos são possíveis na visualização desses gráficos, entendendo onde o mercado está saturado, e onde existem brechas para o crescimento
  
-#### Medicamentos vendidos por estado
+#### 🗺️ Medicamentos vendidos por estado
 ![image](https://github.com/danielreinaux/DataAnalytics/assets/91274263/ff88c0f5-bbd1-4df3-b124-a00d4a7556f6)
 1. **Dominância do Mercado no RJ**: O volume de vendas de medicamentos no estado do Rio de Janeiro destaca-se significativamente, sugerindo uma demanda substancialmente maior, o que pode indicar uma concentração de serviços de saúde ou uma maior prevalência de farmácias e distribuidoras. No entanto, essa dominância também pode apontar para um mercado potencialmente saturado, onde novos entrantes podem enfrentar forte concorrência.
 2. **Potencial de Crescimento em SP e MG**: São Paulo e Minas Gerais, apesar de sua população numerosa e desenvolvimento econômico, mostram vendas relativamente baixas de medicamentos. Isso pode indicar uma oportunidade significativa de mercado para expansão ou melhoria na distribuição e acessibilidade de medicamentos.
 3. **Distribuição Desigual**: A disparidade nas vendas entre os estados sugere uma distribuição desigual de recursos de saúde ou diferenças na estrutura de atendimento à saúde. Esta informação é crucial para políticas públicas focadas em melhorar o acesso à saúde e a medicamentos em estados com menor volume de vendas.
 
-#### Venda por gênero e idade
+#### 🧑‍🤝‍🧑 Venda por gênero e idade
 Análises separadas por determinadas categorias são fundamentas para cada produtor/vendedor entender seu público alvo. Fundamental para uma venda mais direcionada, e consequentemente, eficiente
 
 ##### Distribuição de idade dos compradores
